@@ -1,14 +1,14 @@
 # odin-recipes
 
 ## Project: Recipes
-This is first project of *TOP curriculum*.
-It is created for purpose of practicing HTML. 
+This is my first project in the *TOP curriculum*, created for the purpose of practicing **HTML**.
+It is created for purpose of practicing **HTML**. 
 
-At first it will be plain website created only using **HTML** tags.
-Some time later I will revisit this project and add some **CSS** styling.
+Initially, it will be a simple website created solely using **HTML** tags. 
+Later on, I plan to revisit this project and add some **CSS** styling to enhance its visual appeal.
 
 **Website will consist of:**
-* index page 
-* links to other pages with recipes
+* an index page 
+* links to other pages containing recipes
 
-Completing this project should prove my knowledge in using HTML.
+Completing this project will demonstrate my proficiency in using basic **HTML**.
