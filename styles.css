@@ -17,7 +17,6 @@ footer {
 div.nav-bar {
     height: auto;
     display: flex;
-    width: 600px;
 }
 
 div.site-logo {
@@ -53,7 +52,150 @@ nav.top-header a {
 nav.top-header a:hover {
     text-decoration: underline;
     text-decoration-color: orange;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.3em;
 }
 
+div.hero-recipe {
+    height: auto;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div.hero-img {
+    display: flex;
+    width: 60%;
+}
+
+div.hero-img img {
+    left: 10px;
+    width: 100%;
+    height: auto;  
+    margin: 0; 
+}
+
+div.hero-right-desc {
+    color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+h2.hero-recipe-title {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.3em;
+}
+
+p.hero-recipe-lead {
+    color: white;
+    font-weight: 300;
+}
+
+button.hero-recipe-btn {
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 3px solid white;
+    background-color: white;
+    height: 30px;
+}
+
+button.hero-recipe-btn:hover {
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: orange;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.3em;
+    border: none;
+}
+
+h2.inner-header {
+    margin-top: 50px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.3em;
+}
+
+div.recipes-grid {
+    width: 600px;
+    height: auto;
+    
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.recipe-item {
+    width: 280px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+div.recipe-foto img {
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    border-bottom: 0.35em solid orange;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.recipe-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+
+h3.recipe-title {
+    padding: 0 10px;
+    color: orange
+}
+
+p.recipe-lead {
+    padding: 0 10px;
+}
+
+button.recipe-btn {
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 3px solid orange;
+    background-color: orange;
+    height: 30px;
+    color: white;
+    width: 280px;
+}
+
+button.recipe-btn:hover {
+    color: orange;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.3em;
+    border: none;
+    width: 280px;
+}
