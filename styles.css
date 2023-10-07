@@ -5,13 +5,20 @@
 body,
 footer {    
     width: 600px;
-    margin: 20px auto;
+    margin: 0px auto;
 }
 
 footer {
     height: 200px;
     margin-bottom: 0;
-    background-color: orange
+    background-color: orange;
+    margin-top: 100px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 div.nav-bar {
@@ -62,7 +69,6 @@ div.hero-recipe {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 div.hero-img {
@@ -121,7 +127,7 @@ button.hero-recipe-btn:hover {
 }
 
 h2.inner-header {
-    margin-top: 50px;
+    margin-top: 80px;
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-thickness: 0.15em;
@@ -135,7 +141,7 @@ div.recipes-grid {
     display: flex;
     align-content: flex-start;
     justify-content: space-between;
-    gap: 40px;
+    gap: 60px 40px;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -145,8 +151,6 @@ div.recipe-item {
     height: 350px;
     display: flex;
     flex-direction: column;
-    
-
 }
 
 div.recipe-foto img {
@@ -154,12 +158,6 @@ div.recipe-foto img {
     height: 200px;
     overflow: hidden;
     border-bottom: 0.35em solid orange;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 div.recipe-textbox {
@@ -198,4 +196,86 @@ button.recipe-btn:hover {
     text-underline-offset: 0.3em;
     border: none;
     width: 280px;
+}
+
+div.article-list.aricle-grid,
+a.article-more-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.article-grid {
+    display: flex;
+    align-content: flex-start;
+    gap: 30px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.article-item {
+    width: 190px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div.article-img {
+    width: 190px;
+    height: 200px;
+    overflow: hidden;
+}
+
+div.article-title {
+    width: 190px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.article-title {
+    text-decoration: none;
+    color: black;
+}
+
+h3.article-title {
+    font-size: 0.9em;
+}
+
+a.article-title:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.3em;
+    color: black;
+}
+
+a.article-more-btn {
+    text-decoration: none;
+}
+
+button.article-more-btn {
+    margin-top: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 3px solid orange;
+    background-color: orange;
+    height: 30px;
+    color: white;
+    width: 150px;
+}
+
+button.article-more-btn:hover {
+    color: orange;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.1em;
+    border: none;
+    width: 150px;
 }
