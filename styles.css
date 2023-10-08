@@ -2,6 +2,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
+
 body,
 footer {    
     width: 600px;
@@ -9,10 +10,13 @@ footer {
 }
 
 footer {
-    height: 200px;
+    height: 150px;
     margin-bottom: 0;
     background-color: orange;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -247,8 +251,8 @@ h3.article-title {
 a.article-title:hover {
     text-decoration: underline;
     text-decoration-color: orange;
-    text-decoration-thickness: 0.15em;
-    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.2em;
     color: black;
 }
 
@@ -275,7 +279,51 @@ button.article-more-btn:hover {
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-thickness: 0.15em;
-    text-underline-offset: 0.1em;
+    text-underline-offset: 0.3em;
     border: none;
     width: 150px;
+}
+
+div.footer-content {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+ul.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+ul.footer-links a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.2em;
+}
+
+ul.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+ul.footer-links li {
+    display: inline;
+}
+
+p.project-info {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+p.project-info a {
+    color: black;
 }
